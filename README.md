@@ -26,12 +26,11 @@ Building upon the "Molecular Structure of Thought" (*Chen et al., 2026*), we for
 
 | AI Reasoning Bond | Chemical Analogy | Quantum Entanglement Equivalent | Function |
 | :--- | :--- | :--- | :--- |
-| **Deep Reasoning** | Covalent Bond | **Bell Pairs ($|\Phi^+\rangle$)** | Computational Backbone |
+| **Deep Reasoning** | Covalent Bond | **Bell Pairs** ($\vert\Phi^+\rangle$) | Computational Backbone |
 | **Self-Reflection** | Hydrogen Bond | **Phase Kickback / Ancilla** | Error Correction & "Folding" |
 | **Self-Exploration** | Van der Waals | **Cluster States (MBQC)** | Adaptive Pathfinding & Search |
 
 ![Isomorphism Table](./figure1.png)
-
 ---
 
 ## ⚡ Mechanism: Topological Resonance
