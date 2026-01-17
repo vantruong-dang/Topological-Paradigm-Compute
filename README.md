@@ -1,68 +1,144 @@
-# Topological-Paradigm-Compute
-Official repository for the paper: Toward a Topological Paradigm of Compute
 # Toward a Topological Paradigm of Compute
-## Isomorphism Between LLM Reasoning Manifolds and Quantum Correlation Structures
 
-[![Author](https://img.shields.io/badge/Author-Dang%2C%20Van%20Truong-blue.svg)](mailto:ks.dangvantruong@gmail.com)
-[![Status](https://img.shields.io/badge/Status-Preprint-green.svg)]()
-[![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+**A Foundational Perspective on Correlation, Topology, and Computation**
 
-> **Abstract:** Recent findings in large language models (LLMs) reveal that effective long chain-of-thought (Long CoT) reasoning trajectories form stable “molecular” structures. We argue that this emergence of topological organization implies that while the hardware remains classical, the semantic interactions in high-dimensional space exhibit quantum-like behaviors.
+Official repository for the perspective paper:
 
-### 📄 [Read the Full Paper (PDF)](./Dang_Topological_Paradigm_2026.pdf)
+**Toward a Topological Paradigm of Compute:
+Isomorphism Between Reasoning Manifolds and Quantum Correlation Structures**
 
 ---
 
-## ⚛️ The Core Hypothesis: "Natural Quantum Simulation"
+## 📌 Overview
 
-This perspective paper introduces the **Correlation-Aware Programming Model (CAPM)**. We posit that LLMs act as **"Natural Quantum Simulators"** via the mathematical equivalence between Transformer architectures and **Tensor Networks** (e.g., Matrix Product States).
+This repository accompanies a **foundational perspective paper** proposing a shift in how computation is conceptualized:
 
-### 🛡️ Disclaimer on Physicality
-> **Note:** We do not imply LLMs utilize physical quantum effects (superposition of silicon gates). Rather, the **mathematical topology** of the reasoning manifold in high-dimensional vector space behaves *isomorphically* to quantum graph states.
+> **Computation is framed not primarily as sequential symbol manipulation, but as the evolution and stabilization of correlation structures in high-dimensional state spaces.**
 
-### The Mapping ($G_{AI} \leftrightarrow G_Q$)
+The paper introduces the **Correlation-Aware Programming Model (CAPM)** as a unifying conceptual framework connecting:
 
-Building upon the "Molecular Structure of Thought" (*Chen et al., 2026*), we formalize the isomorphism:
+* reasoning trajectories in large-scale neural models,
+* tensor-network representations in quantum many-body physics,
+* and graph-based descriptions of computation.
 
-| AI Reasoning Bond | Chemical Analogy | Quantum Entanglement Equivalent | Function |
-| :--- | :--- | :--- | :--- |
-| **Deep Reasoning** | Covalent Bond | **Bell Pairs** ($\vert\Phi^+\rangle$) | Computational Backbone |
-| **Self-Reflection** | Hydrogen Bond | **Phase Kickback / Ancilla** | Error Correction & "Folding" |
-| **Self-Exploration** | Van der Waals | **Cluster States (MBQC)** | Adaptive Pathfinding & Search |
-
-![Isomorphism Table](./figure1.png)
----
-
-## ⚡ Mechanism: Topological Resonance
-
-We argue that the "Insight" phenomenon in AI is mechanically equivalent to **Topological Resonance** or **Quantum Tunneling** in the semantic energy landscape.
-
-*   **Classical Linear Chain:** Must climb over energy barriers (local minima), leading to hallucination or stuck states.
-*   **Topological Folding:** The system uses "Self-Reflection" bonds to tunnel through the barrier, effectively shortcutting the reasoning space.
-
-![Topological Tunneling](./figure2.png)
-*Figure: Visualization of Topological Advantage. The blue path represents the "Tunneling" shortcut enabled by non-local correlations (Attention).*
+This work is **theoretical and structural in nature**, intended to clarify *how* different computational systems can exhibit analogous behaviors without implying physical equivalence.
 
 ---
 
-## 🗺️ Future Work & Implementation
+## 🔍 Scope and Positioning
 
-This paper establishes the theoretical foundation based on **Measurement-Based Quantum Computing (MBQC)** principles. The algorithmic implementation is currently under design.
+* **This is not a claim of physical quantum computation in classical hardware.**
+* **This is not an AI performance paper.**
+* **This is not an implementation paper.**
 
-👉 **Track the software development here:** [CAPM-quantum Library](https://github.com/vantruong-dang/CAPM-quantum)
+Instead, the paper argues for a **mathematical and topological isomorphism** between:
+
+* correlation structures emerging in complex classical systems (e.g., LLM reasoning manifolds),
+* and well-studied constructs in quantum information theory (e.g., tensor networks, graph states).
+
+The contribution lies in **reframing computation itself**, not in proposing a new hardware model or learning algorithm.
+
+---
+
+## 🧠 Core Thesis
+
+Certain classes of reasoning and inference processes naturally organize into **stable, non-local correlation structures**.
+
+These structures:
+
+* can be represented graph-theoretically,
+* admit tensor-network descriptions,
+* and evolve under constraints analogous to fixed-point dynamics.
+
+This motivates viewing computation as a **topological process of correlation management**, rather than a purely linear or local operation.
+
+---
+
+## 🧩 Conceptual Mapping (High-Level)
+
+The paper discusses structural correspondences between:
+
+* **Reasoning manifolds** in high-dimensional representation spaces
+* **Quantum correlation structures** such as entanglement graphs and cluster states
+
+These correspondences are used **as formal analogies and isomorphisms**, not as claims of physical identity.
+
+All chemical or physical metaphors (e.g., “molecular structure of thought”) are explicitly **illustrative**, not ontological.
+
+---
+
+## ⚠️ Disclaimer on Physical Interpretation
+
+This work **does not assert**:
+
+* physical quantum effects in classical neural hardware,
+* superposition or entanglement at the level of silicon,
+* or violation of classical computational limits.
+
+All quantum references are **mathematical and structural**, serving as analytical tools.
+
+---
+
+## 🛠️ Relation to Software Development
+
+This repository contains **no production code**.
+
+Algorithmic realizations and experimental validation are developed separately in:
+
+👉 **CAPM-Quantum**
+[https://github.com/vantruong-dang/capm-quantum](https://github.com/vantruong-dang/capm-quantum)
+
+The software project builds upon the conceptual foundation established here, but is intentionally decoupled from this paper.
+
+---
+
+## 🧭 Research Trajectory
+
+This paper is intended as **Paper 1** in a broader research program:
+
+1. **Paper 1 – Conceptual Leap**
+   Foundational reframing of computation via topology and correlation.
+
+2. **Paper 2 – Epistemic Rigor**
+   Formal stability criteria, validation protocols, and failure-mode analysis
+   (e.g., SCF Initialization Invariance Protocol – SIIP).
+
+3. **Paper 3 – Ecosystem & Applications**
+   Libraries, solvers, and application-driven exploration of the framework.
+
+---
+
+## 📄 Paper
+
+📄 **Read the full paper (PDF):**
+(see repository files)
+
+This repository may be updated as the research program matures.
+The current PDF reflects the original perspective publication.
 
 ---
 
 ## 📚 Citation
 
-If you find this perspective useful for your research, please cite it as:
+If you find this perspective useful, please cite:
 
 ```bibtex
 @article{dang2026topological,
-  title={Toward a Topological Paradigm of Compute: Isomorphism Between LLM Reasoning Manifolds and Quantum Correlation Structures},
+  title={Toward a Topological Paradigm of Compute: Isomorphism Between Reasoning Manifolds and Quantum Correlation Structures},
   author={Dang, Van Truong},
   journal={Preprint},
   year={2026},
   month={January},
   url={https://github.com/vantruong-dang/Topological-Paradigm-Compute}
 }
+```
+
+---
+
+## 🧠 Final Note
+
+This work aims to **clarify questions**, not prematurely close them.
+
+Its value lies in defining a coherent conceptual space within which future theoretical, numerical, and experimental work can proceed with greater precision.
+
+---
